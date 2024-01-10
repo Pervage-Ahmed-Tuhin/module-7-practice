@@ -1,0 +1,54 @@
+section{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 100%;
+}
+
+.image{
+    max-width: 885px;
+    margin: auto;
+}
+
+.img1{
+    width: 95%;
+}
+
+/* .img2{
+    width: 85%;
+    height: 500px;
+} */
+
+.image{
+    /* align-items: center; */
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.content{
+    text-align: start;
+}
+
+h2{
+    font-size: 2em;
+}
+p{
+    font-size:2em;
+}
+
+@media screen and (max-width:576px) {
+    .container{
+        flex-direction: column;
+    }
+    .container2{
+        flex-direction: column-reverse;
+    }
+}
